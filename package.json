@@ -7,8 +7,8 @@
     "prettier": "^2.3.1"
   },
   "scripts": {
-    "lint": "eslint src",
+    "lint": "eslint src find-shortest-string.js",
     "format": "prettier --write src",
-    "format:check": "prettier --check src"
+    "format:check": "prettier --check src find-shortest-string.js"
   }
 }
